@@ -20,6 +20,10 @@ body {
   width: 90%;
   margin: 0 auto;
   padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 12;
+  background-color: rgb(20, 18, 11);
 }
 
 #toprightlogo {
@@ -235,5 +239,123 @@ body {
 /* // TESTIMONY SECTION CARDS */
 #testimonyH1{
  text-align: center;
- margin-bottom: 10px;
+ margin-bottom: 50px;
+}
+
+#cardParent{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(24, 25, 13) ;
+  padding: 20px ;
+  align-items:flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#cardChildDiv{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  gap: 10px;
+  
+}
+.cardText{
+  display: flex;
+  flex-direction: column;
+}
+
+#cardImg{
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+  display: block;
+}
+
+.userName{
+  color: gray;
+}
+
+.redp{
+  color: red;
+  margin-top: 20px;
+}
+#divforstories{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+  
+
+}
+.storyImg{
+  height: 200px;
+  width: 200px;
+}
+
+.storyCard{
+  background-color:rgb(24, 25, 13);
+  padding: 20px;
+  
+}
+
+#changelog{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+.changelogCard{
+  padding: 10px;
+  background-color:rgb(24, 25, 13) ;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 17px;
+  text-align: center;
+}
+
+.fade{
+  color: gray;
+}
+
+.btnCln{
+  border: 1px solid white;
+  border-radius: 18px;
+  padding: 4px 15px;
+  margin-right: 5px;
+}
+#redps{
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
+  margin-left: 5px;
+}
+
+#homepageTeamImg{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#headforhomepageTeam{
+  font-size: 44px;
+  width: 40vw;
+  letter-spacing: 0.3px;
+  margin-bottom: 20px;
+}
+
+#btnHomepageTeam{
+  margin-bottom: 20px ;
+  padding: 10px 20px;
 }

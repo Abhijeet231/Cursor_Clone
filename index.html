@@ -1,185 +1,388 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--- Navbar -->
     <nav id="nav">
-        <!--- Cursor-->
-        <div id="toprightlogo" class="div">
-            <img src="assets/APP_ICON_2D_DARK.png" alt="logo" id="cursorLogo">
-            <h1 class="h1" id="h1Nav">CURSOR</h1>
-        </div>
+      <!--- Cursor-->
+      <div id="toprightlogo" class="div">
+        <img src="assets/APP_ICON_2D_DARK.png" alt="logo" id="cursorLogo" />
+        <h1 class="h1" id="h1Nav">CURSOR</h1>
+      </div>
 
-        <!--Mid Part-->
-        <div id="topbottomNav" class="div">
-            <div>Feature</div>
-            <div>Enterprise</div>
-            <div>Pricing</div>
-            <div>Resource</div>
-        </div>
+      <!--Mid Part-->
+      <div id="topbottomNav" class="div">
+        <div>Feature</div>
+        <div>Enterprise</div>
+        <div>Pricing</div>
+        <div>Resource</div>
+      </div>
 
-        <!--Auth Buttons-->
-        <div id="authBtns" class="div">
-            <button id="signInBtn" class="btn">Sign in</button>
-            <button id="DownloadBtn" class="btn">Download</button>
-        </div>
-
+      <!--Auth Buttons-->
+      <div id="authBtns" class="div">
+        <button id="signInBtn" class="btn">Sign in</button>
+        <button id="DownloadBtn" class="btn">Download</button>
+      </div>
     </nav>
 
     <!-- HERO SECTION -->
 
     <header id="heroSection">
-        <div id="headHero">
-            <h1 id="heroh1">Built to make your extraordinarily productive, Cursor is the best way to code with AI.</h1>
+      <div id="headHero">
+        <h1 id="heroh1">
+          Built to make your extraordinarily productive, Cursor is the best way
+          to code with AI.
+        </h1>
 
-            <button class="btn">Download for Windows <i class="fa-solid fa-arrow-down"></i></button>
-        </div>
+        <button class="btn">
+          Download for Windows <i class="fa-solid fa-arrow-down"></i>
+        </button>
+      </div>
 
-        <div id="demoBg">
-            <img src="assets/asset-cc24ca462279ca23250c.jpg" alt="bgimg" id="heroImg">
-
-
-        </div>
-
+      <div id="demoBg">
+        <img
+          src="assets/asset-cc24ca462279ca23250c.jpg"
+          alt="bgimg"
+          id="heroImg"
+        />
+      </div>
     </header>
 
     <section id="trustedPartnersSection">
-        <p>Trusted every day by millions of professional developers.</p>
-        <div id="trustedPartners">
-            <div class="prtnrDiv" id="stripe">
-                <h2>Stripe</h2>
-            </div>
-            <div class="prtnrDiv" id="openAi">
-                <h2>OpenAi</h2>
-            </div>
-            <div class="prtnrDiv" id="linear">
-                <h2>Linear</h2>
-            </div>
-            <div class="prtnrDiv">
-                <h2>DATADOG</h2>
-            </div>
-            <div class="prtnrDiv">
-                <h2>nVIDIA</h2>
-            </div>
-            <div class="prtnrDiv">
-                <h2>Figma</h2>
-            </div>
-            <div class="prtnrDiv">
-                <h2>ramp</h2>
-            </div>
-            <div class="prtnrDiv">
-                <h2>Adobe</h2>
-            </div>
+      <p>Trusted every day by millions of professional developers.</p>
+      <div id="trustedPartners">
+        <div class="prtnrDiv" id="stripe">
+          <h2>Stripe</h2>
         </div>
+        <div class="prtnrDiv" id="openAi">
+          <h2>OpenAi</h2>
+        </div>
+        <div class="prtnrDiv" id="linear">
+          <h2>Linear</h2>
+        </div>
+        <div class="prtnrDiv">
+          <h2>DATADOG</h2>
+        </div>
+        <div class="prtnrDiv">
+          <h2>nVIDIA</h2>
+        </div>
+        <div class="prtnrDiv">
+          <h2>Figma</h2>
+        </div>
+        <div class="prtnrDiv">
+          <h2>ramp</h2>
+        </div>
+        <div class="prtnrDiv">
+          <h2>Adobe</h2>
+        </div>
+      </div>
     </section>
 
     <!-- // Frist Section -->
     <section id="sectionOne" class="section">
+      <div>
+        <p id="Firstp" class="sectionp">Agent turns ideas into code</p>
+        <p id="Secondp" class="sectionp">
+          A human-Ai programmer, orders of magnitude more effective than any
+          developer alone.
+        </p>
+        <p id="thirdp" class="sectionp">
+          Learn about Agents <i class="fa-solid fa-arrow-right"></i>
+        </p>
+      </div>
 
-        <div>
-            <p id="Firstp" class="sectionp"> Agent turns ideas into code </p>
-            <p id="Secondp" class="sectionp">A human-Ai programmer, orders of magnitude more effective than any
-                developer alone.</p>
-            <p id="thirdp" class="sectionp">Learn about Agents <i class="fa-solid fa-arrow-right"></i></p>
-        </div>
-
-        <img src="assets/asset-d3c8107d95ae7f6604ad.jpg" alt="img" id="sectionOneImg">
-
+      <img
+        src="assets/asset-d3c8107d95ae7f6604ad.jpg"
+        alt="img"
+        id="sectionOneImg"
+      />
     </section>
 
     <!-- // Second Section -->
     <section id="sectionTwo" class="section">
-        <img src="assets/asset-cc24ca462279ca23250c.jpg" alt="img" id="sectionTwoImg">
+      <img
+        src="assets/asset-cc24ca462279ca23250c.jpg"
+        alt="img"
+        id="sectionTwoImg"
+      />
 
-        <div>
-            <p id="Firstp" class="sectionp"> Magically accurate autocomplete </p>
-            <p id="Secondp" class="sectionp">Our custom Tab model predicts your next action with next action with
-                striking speed and precision.</p>
-            <p id="thirdp" class="sectionp">Learn about Tab <i class="fa-solid fa-arrow-right"></i></p>
-        </div>
-
-
-
+      <div>
+        <p id="Firstp" class="sectionp">Magically accurate autocomplete</p>
+        <p id="Secondp" class="sectionp">
+          Our custom Tab model predicts your next action with next action with
+          striking speed and precision.
+        </p>
+        <p id="thirdp" class="sectionp">
+          Learn about Tab <i class="fa-solid fa-arrow-right"></i>
+        </p>
+      </div>
     </section>
 
     <!-- // Third Section -->
     <section id="sectionThree" class="section">
+      <div>
+        <p id="Firstp" class="sectionp">Everywhere software gets built</p>
+        <p id="Secondp" class="sectionp">
+          Cursor is in GitHub reviewing your PRs, a teammate is Slack, and
+          anywhere else you work.
+        </p>
+        <p id="thirdp" class="sectionp">
+          Learn about Cursor's ecosystem <i class="fa-solid fa-arrow-right"></i>
+        </p>
+      </div>
 
-        <div>
-            <p id="Firstp" class="sectionp"> Everywhere software gets built </p>
-            <p id="Secondp" class="sectionp">Cursor is in GitHub reviewing your PRs, a teammate is Slack, and anywhere
-                else you work.</p>
-            <p id="thirdp" class="sectionp">Learn about Cursor's ecosystem <i class="fa-solid fa-arrow-right"></i></p>
-        </div>
-
-        <img src="assets/asset-cc24ca462279ca23250c.jpg" alt="img" id="sectionThreeImg">
-
+      <img
+        src="assets/asset-cc24ca462279ca23250c.jpg"
+        alt="img"
+        id="sectionThreeImg"
+      />
     </section>
 
     <!-- // Testimony -->
     <section class="sectionRaw">
-        <h1 id="testimonyH1">The new way to build software</h1>
-        <!-- // Cards -->
-        <div id="cardParent">
-            <!-- //CardOne -->
-            <div id="cardOne" class="card">
-                <p>It was night and day from one batch to another, adoption went from single digits to over 80%. It just
-                    spread like wildfire, all the best builders were using Cursor.</p>
-                <div id="cardChildDiv">
-                    <img src="assets/persons/diana-hu-avatar.png" alt="pfp" id="cardImg">
-                    <p>Diana Hu</p>
-                    <p>General Partner, Y Combinator</p>
-                </div>
+      <h1 id="testimonyH1">The new way to build software</h1>
+      <!-- // Cards -->
+      <div id="cardParent">
+        <!-- //CardOne -->
+        <div id="cardOne" class="card">
+          <p>
+            It was night and day from one batch to another, adoption went from
+            single digits to over 80%. It just spread like wildfire, all the
+            best builders were using Cursor.
+          </p>
+          <div id="cardChildDiv">
+            <img
+              src="assets/persons/diana-hu-avatar.png"
+              alt="pfp"
+              id="cardImg"
+            />
+
+            <div class="cardText">
+              <p class="name">Diana Hu</p>
+              <p class="userName">General Partner, Y Combinator</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- //Card TWo -->
+        <div id="cardTwo" class="card">
+          <p>
+            The most useful AI tool that I currently pay for, hands down, is
+            Cursor. It's fast, autocompletes when and where you need it to,
+            handles brackets properly, sensible keyboard shortcuts,
+            bring-your-own-model... everything is well put together.
+          </p>
+          <div id="cardChildDiv">
+            <img
+              src="assets//persons/shadcn-avatar.png"
+              alt="pfp"
+              id="cardImg"
+            />
+
+            <div class="cardText">
+              <p class="name">shadcn</p>
+              <p class="userName">Creator of shadcn/ui</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- // Third Card -->
+        <div id="cardThree" class="card">
+          <p>
+            The best LLM applications have an autonomy slider: you control how
+            much independence to give the AI. In Cursor, you can do Tab
+            completion, Cmd+K for targeted edits, or you can let it rip with the
+            full autonomy agentic version.
+          </p>
+          <div id="cardChildDiv">
+            <img
+              src="assets//persons/andrej-karpathy-avatar.png"
+              alt="pfp"
+              id="cardImg"
+            />
+
+            <div class="cardText">
+              <p class="name">Andrej Karpathy</p>
+              <p class="userName">CEO, Eureka Labs</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- // Fourth Card -->
+        <div id="cardfour" class="card">
+          <p>
+            Cursor quickly grew from hundreds to thousands of extremely
+            enthusiastic Stripe employees. We spend more on R&D and software
+            creation than any other undertaking, and there's significant
+            economic outcomes when making that process more efficient and
+            productive.
+          </p>
+          <div id="cardChildDiv">
+            <img
+              src="assets//persons/patrick-collison-avatar.png"
+              alt="pfp"
+              id="cardImg"
+            />
+
+            <div class="cardText">
+              <p class="name">Patrick Collison</p>
+              <p class="userName">Co-Founder & CEO, Stripe</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- // Fifth Card -->
+        <div id="cardfifth" class="card">
+          <p>It's official.</p>
+
+          <p>I hate vibe coding.</p>
+          <p>I love Cursor tab coding.</p>
+
+          <p>It's wild.</p>
+          <div id="cardChildDiv">
+            
+              <img
+                src="assets//persons/theprimeagen-avatar.png"
+                alt="pfp"
+                id="cardImg"
+              />
+
+              <div class="cardText">
+                <p class="name">ThePrimeagen</p>
+                <p class="userName">@ThePrimeagen</p>
+              </div>
+            
+          </div>
+        </div>
+
+        <!-- // Sixth Card -->
+        <div id="cardsixth" class="card">
+          <p>
+            It's definitely becoming more fun to be a programmer. It's less
+            about digging through pages and more about what you want to happen.
+            We are at the 1% of what's possible, and it's in interactive
+            experiences like Cursor where models like GPT-5 shine brightest.
+          </p>
+          <div id="cardChildDiv">
+            <img
+              src="assets//persons/greg-brockman-avatar.jpg"
+              alt="pfp"
+              id="cardImg"
+            />
+
+            <div class="cardText">
+              <p class="name">Greg Brockman</p>
+
+              <p class="userName">President, OpenAI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionRaw">
+        <h1 id="h1for2ndLstSctn">Stay on the Frontier</h1>
+        <div id="divforstories">
+
+                <!-- //First Card -->
+            <div class="storyCard">
+              <div class="cardText">
+                 <p>Access the best models</p>
+               <p class="userName">Choose between every cutting-edge model from OpenAi, Anthropic, Gemini, and xAI.</p>
+
+               <p class="redp">Explore models </p>
+              </div>
+              <img src="assets/asset-cc24ca462279ca23250c.jpg" alt="img" class="storyImg">
+
             </div>
 
-            <!-- //Card TWo -->
-             <div id="cardTwo" class="card">
-                 <p>The most useful AI tool that I currently pay for, hands down, is Cursor. It's fast, autocompletes when and where you need it to, handles brackets properly, sensible keyboard shortcuts, bring-your-own-model... everything is well put together.</p>
-                 <div id="cardChildDiv">
-                    <img src="assets//persons/shadcn-avatar.png" alt="pfp" id="cardImg">
-                    <p>shadcn</p>
-                    <p>Creator of shadcn/ui</p>
+              <!-- //SEcond Card -->
+             <div class="storyCard">
+              <div class="cardText">
+                 <p>Access the best models</p>
+               <p class="userName">Choose between every cutting-edge model from OpenAi, Anthropic, Gemini, and xAI.</p>
 
-                 </div>
-             </div>
+               <p class="redp">Explore models </p>
+              </div>
+              <img src="assets/asset-cc24ca462279ca23250c.jpg" alt="img" class="storyImg">
 
-             <!-- // Third Card -->
-               <div id="cardThree" class="card">
-                 <p>The best LLM applications have an autonomy slider: you control how much independence to give the AI. In Cursor, you can do Tab completion, Cmd+K for targeted edits, or you can let it rip with the full autonomy agentic version.</p>
-                 <div id="cardChildDiv">
-                    <img src="assets//persons/andrej-karpathy-avatar.png" alt="pfp" id="cardImg">
-                    <p>Andrej Karpathy</p>
-                    <p>CEO, Eureka Labs</p>
+            </div>
+            <!-- // Third Card -->
+              <div class="storyCard">
+              <div class="cardText">
+                 <p>Access the best models</p>
+               <p class="userName">Choose between every cutting-edge model from OpenAi, Anthropic, Gemini, and xAI.</p>
 
-                 </div>
-             </div>
+               <p class="redp">Explore models </p>
+              </div>
+              <img src="assets/asset-cc24ca462279ca23250c.jpg" alt="img" class="storyImg">
 
-             <!-- // Fourth Card -->
-                <div id="cardfour" class="card">
-                 <p>Cursor quickly grew from hundreds to thousands of extremely enthusiastic Stripe employees. We spend more on R&D and software creation than any other undertaking, and there's significant economic outcomes when making that process more efficient and productive.</p>
-                 <div id="cardChildDiv">
-                    <img src="assets//persons/patrick-collison-avatar.png" alt="pfp" id="cardImg">
-                    <p>Patrick Collison</p>
-                    <p>Co-Founder & CEO, Stripe</p>
-
-                 </div>
-             </div>
-
+            </div>
         </div>
     </section>
 
-</body>
+    <!-- //Changelog Section -->
+     <section class="sectionRaw">
+        <h1>Changelog</h1>
 
+        <div id="changelog">
+            <div class="changelogCard">
+                  <div class="fade">
+                    <span class="btnCln">2.4</span>
+                  <span>Jan 22, 2026</span>
+                  </div>
+
+                  <p>Subagents,Skills, and Image Generation</p>
+
+            </div>
+
+            <!-- //CardTwo -->
+             <div class="changelogCard">
+                 <p class="fade">Jan 16, 2026</p>
+                 <p >CLI Agent Modes and Cloud Handoff</p>
+             </div>
+
+             <!-- //Third Card -->
+              <div class="changelogCard">
+                <p class="fade">Jan 8, 2026</p>
+                <p >New CLI Features and Imporoved CLI Performacne</p>
+
+              </div>
+
+              <!-- //Forth Card -->
+               <div class="changelogCard">
+                <div class="fade">
+                    <span class="btnCln">2.3</span>
+                    <span>Dec 22, 2025</span>
+                </div>
+                <p>Layout Customization and Stability Improvements</p>
+
+               </div>
+
+        </div>
+<p id="redps">See What's new in Cursor </p>
+     </section>
+
+<!-- // NEW SECTION -->
+ <section class="sectionRaw">
+<h1 id="headforhomepageTeam">Cursor is an applied team focused on building the future of coding.</h1>
+
+<button class="btn" id="btnHomepageTeam">Join us <i class="fa-solid fa-arrow-down"></i></button>
+<img src="assets/homepage-team-photo.jpg" alt="img" id="homepageTeamImg">
+ </section>
+
+  </body>
 </html>
