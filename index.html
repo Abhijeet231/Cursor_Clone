@@ -1,11 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
     <title>Document</title>
 </head>
+
 <body>
-    
+    <!--- Navbar -->
+    <nav id="nav">
+        <!--- Cursor-->
+        <div id="toprightlogo" class="div">
+            <img src="assets/APP_ICON_2D_DARK.png" alt="logo" id="cursorLogo">
+            <h1 class="h1" id="h1Nav">CURSOR</h1>
+        </div>
+
+        <!--Mid Part-->
+        <div id="topbottomNav" class="div">
+            <div>Feature</div>
+            <div>Enterprise</div>
+            <div>Pricing</div>
+            <div>Resource</div>
+        </div>
+
+        <!--Auth Buttons-->
+        <div id="authBtns" class="div">
+            <button id="signInBtn" class="btn">Sign in</button>
+            <button id="DownloadBtn" class="btn">Download</button>
+        </div>
+
+    </nav>
+
+    <!-- HERO SECTION -->
+
+    <header id="heroSection">
+        <div id="headHero">
+            <h1 id="heroh1">Built to make your extraordinarily productive, Cursor is the best way to code with AI.</h1>
+
+            <button class="btn">Download for Windows <i class="fa-solid fa-arrow-down"></i></button>
+        </div>
+
+        <div id="demoBg">
+            <img src="assets/asset-cc24ca462279ca23250c.jpg" alt="bgimg" id="heroImg">
+
+
+        </div>
+
+    </header>
+
+    <section id="trustedPartnersSection">
+        <p>Trusted every day by millions of professional developers.</p>
+        <div id="trustedPartners">
+            <div class="prtnrDiv" id="stripe">
+                <h2>Stripe</h2>
+            </div>
+            <div class="prtnrDiv" id="openAi">
+                <h2>OpenAi</h2>
+            </div>
+            <div class="prtnrDiv" id="linear">
+                <h2>Linear</h2>
+            </div>
+            <div class="prtnrDiv">
+                <h2>DATADOG</h2>
+            </div>
+            <div class="prtnrDiv">
+                <h2>nVIDIA</h2>
+            </div>
+            <div class="prtnrDiv">
+                <h2>Figma</h2>
+            </div>
+            <div class="prtnrDiv">
+                <h2>ramp</h2>
+            </div>
+            <div class="prtnrDiv">
+                <h2>Adobe</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- // Frist Section -->
+    <section id="sectionOne" class="section">
+
+        <div>
+            <p id="Firstp" class="sectionp"> Agent turns ideas into code </p>
+            <p id="Secondp" class="sectionp">A human-Ai programmer, orders of magnitude more effective than any
+                developer alone.</p>
+            <p id="thirdp" class="sectionp">Learn about Agents <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+
+        <img src="assets/asset-d3c8107d95ae7f6604ad.jpg" alt="img" id="sectionOneImg">
+
+    </section>
+
+    <!-- // Second Section -->
+    <section id="sectionTwo" class="section">
+        <img src="assets/asset-cc24ca462279ca23250c.jpg" alt="img" id="sectionTwoImg">
+
+        <div>
+            <p id="Firstp" class="sectionp"> Magically accurate autocomplete </p>
+            <p id="Secondp" class="sectionp">Our custom Tab model predicts your next action with next action with
+                striking speed and precision.</p>
+            <p id="thirdp" class="sectionp">Learn about Tab <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+
+
+
+    </section>
+
+    <!-- // Third Section -->
+    <section id="sectionThree" class="section">
+
+        <div>
+            <p id="Firstp" class="sectionp"> Everywhere software gets built </p>
+            <p id="Secondp" class="sectionp">Cursor is in GitHub reviewing your PRs, a teammate is Slack, and anywhere
+                else you work.</p>
+            <p id="thirdp" class="sectionp">Learn about Cursor's ecosystem <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+
+        <img src="assets/asset-cc24ca462279ca23250c.jpg" alt="img" id="sectionThreeImg">
+
+    </section>
+
+    <!-- // Testimony -->
+    <section class="sectionRaw">
+        <h1 id="testimonyH1">The new way to build software</h1>
+        <!-- // Cards -->
+        <div id="cardParent">
+            <!-- //CardOne -->
+            <div id="cardOne" class="card">
+                <p>It was night and day from one batch to another, adoption went from single digits to over 80%. It just
+                    spread like wildfire, all the best builders were using Cursor.</p>
+                <div id="cardChildDiv">
+                    <img src="assets/persons/diana-hu-avatar.png" alt="pfp" id="cardImg">
+                    <p>Diana Hu</p>
+                    <p>General Partner, Y Combinator</p>
+                </div>
+            </div>
+
+            <!-- //Card TWo -->
+             <div id="cardTwo" class="card">
+                 <p>The most useful AI tool that I currently pay for, hands down, is Cursor. It's fast, autocompletes when and where you need it to, handles brackets properly, sensible keyboard shortcuts, bring-your-own-model... everything is well put together.</p>
+                 <div id="cardChildDiv">
+                    <img src="assets//persons/shadcn-avatar.png" alt="pfp" id="cardImg">
+                    <p>shadcn</p>
+                    <p>Creator of shadcn/ui</p>
+
+                 </div>
+             </div>
+
+             <!-- // Third Card -->
+               <div id="cardThree" class="card">
+                 <p>The best LLM applications have an autonomy slider: you control how much independence to give the AI. In Cursor, you can do Tab completion, Cmd+K for targeted edits, or you can let it rip with the full autonomy agentic version.</p>
+                 <div id="cardChildDiv">
+                    <img src="assets//persons/andrej-karpathy-avatar.png" alt="pfp" id="cardImg">
+                    <p>Andrej Karpathy</p>
+                    <p>CEO, Eureka Labs</p>
+
+                 </div>
+             </div>
+
+             <!-- // Fourth Card -->
+                <div id="cardfour" class="card">
+                 <p>Cursor quickly grew from hundreds to thousands of extremely enthusiastic Stripe employees. We spend more on R&D and software creation than any other undertaking, and there's significant economic outcomes when making that process more efficient and productive.</p>
+                 <div id="cardChildDiv">
+                    <img src="assets//persons/patrick-collison-avatar.png" alt="pfp" id="cardImg">
+                    <p>Patrick Collison</p>
+                    <p>Co-Founder & CEO, Stripe</p>
+
+                 </div>
+             </div>
+
+        </div>
+    </section>
+
 </body>
+
 </html>
