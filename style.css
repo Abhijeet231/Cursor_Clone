@@ -359,3 +359,75 @@ body {
   margin-bottom: 20px ;
   padding: 10px 20px;
 }
+
+#redpp {
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
+  margin-left: 5px;
+}
+
+.greyp{
+  color: gray;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.highlightCard{
+  background-color:rgb(24, 25, 13) ;
+   padding: 20px;
+   text-align:start;
+}
+
+#highlights{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr ;
+  gap: 10px;
+  border-radius: 5px;
+  width: 50vw;
+}
+
+#highlightSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(16, 16, 3);
+}
+#highlightHead{
+  margin: 0;
+}
+#headforlastCTA{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+#lastCta{
+ text-align: center;
+}
+#lastBTN{
+  padding: 14px 20px;
+}
+.footerHead{
+  color: gray;
+}
+#parentF{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgb(16, 16, 3);
+}
+
+.footerDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-start;
+  padding: 20px;
+}
+#lastP{
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
